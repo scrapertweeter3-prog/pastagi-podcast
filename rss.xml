@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <title>The PastAGI Briefing</title>
+  <link>https://pastagi.com/</link>
+  <description>Practical AI guides, honest tool reviews, engineering deep dives, real-world use cases, and sharp analysis that cuts through the hype. Short episodes decoding what shipped and what it means for builders.</description>
+  <language>en-us</language>
+  <copyright>2026 Poket Dev LLC</copyright>
+  <image>
+    <url>https://raw.githubusercontent.com/scrapertweeter3-prog/pastagi-podcast/main/artwork.png</url>
+    <title>The PastAGI Briefing</title>
+    <link>https://pastagi.com/</link>
+  </image>
+  <itunes:author>Poket Dev</itunes:author>
+  <itunes:image href="https://raw.githubusercontent.com/scrapertweeter3-prog/pastagi-podcast/main/artwork.png"/>
+  <itunes:category text="Technology"/>
+  <item>
+    <title>Agents Need Version Control Too</title>
+    <link>https://pastagi.com/</link>
+    <guid isPermaLink="false">pa-ep1</guid>
+    <pubDate>Sat, 08 Nov 2026 12:00:00 +0000</pubDate>
+    <description>Every serious AI coding deployment eventually collides with the same wall: the agent&#x27;s work has no history. Prompts, tool calls, and generated diffs live in a chat log, not a repository. The fix is boring and structural. Treat every agent run as a branch: commit the environment, commit the output, review the diff, merge or discard. Teams that adopt this ship agents to production, and teams that skip it keep pasting context back into a fresh chat every morning. Git was built for exactly this discipline. The workflow guide for agent version control is on pastagi dot com.</description>
+    <enclosure url="https://raw.githubusercontent.com/scrapertweeter3-prog/pastagi-podcast/main/episodes/pa-ep1.mp3" length="237980" type="audio/mpeg"/>
+    <itunes:duration>39</itunes:duration>
+  </item>
+  <item>
+    <title>What a Support Agent Actually Saves</title>
+    <link>https://pastagi.com/</link>
+    <guid isPermaLink="false">pa-ep2</guid>
+    <pubDate>Sun, 09 Nov 2026 12:00:00 +0000</pubDate>
+    <description>Vendors pitch AI support agents as headcount replacement. The real savings math is narrower and still compelling. An agent deflects the top forty percent of ticket volume: password resets, order status, refund policy. Those tickets cost a few dollars each to answer and the agent answers them for cents. The remaining sixty percent, escalations and edge cases, still routes to humans, and the agent&#x27;s real value there is a summarized transcript that cuts handle time by a third. Model the stack that way and the payback window is months, not years. The decoded vendor table is on pastagi dot com.</description>
+    <enclosure url="https://raw.githubusercontent.com/scrapertweeter3-prog/pastagi-podcast/main/episodes/pa-ep2.mp3" length="243884" type="audio/mpeg"/>
+    <itunes:duration>40</itunes:duration>
+  </item>
+</channel>
+</rss>
